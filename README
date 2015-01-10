@@ -1,0 +1,15 @@
+Weighted Round Robin Queue/Packet Scheduler:
+
+Compilation:
+
+    cd WRR-Scheduler/
+    make; 
+
+Execution:
+
+    Execute program by passing 4 weights as the arguments as shown below -
+
+    ./wrr queue_weights wt1 wt2 wt3 wt4
+
+Note: The code is developed for only four traffic classes or queues and
+can be modified accordingly when required higher number of queues. 
